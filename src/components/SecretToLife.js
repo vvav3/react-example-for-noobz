@@ -11,4 +11,4 @@ const SecretToLife = ({ secretToLife }) => {
   );
 };
 
-export default withSecretToLife({ secretToLife: 42 })(SecretToLife);
+export default withSecretToLife(SecretToLife);
